@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+
+.color-primary-bg{
+    background: #003859;
+}
+
+.color-second-tg{
+    color: #00A5C4;
+}
+
+.color-second{
+    background: #00A5C4;
+}
+
+.color-second-bg{
+    background: #FFD289;
+}
+
+.color-lg{
+    background: #F0F0E9;
+}
+
+.color-lg-lin{
+    background: radial-gradient(rgb(37, 36, 36),rgb(40, 40, 41));
+}
+
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.nan{
+  font-size: 50px;
+  font-family: berns;
+  /* line-height: 200px; */
+}
+
+.font-berns{
+  font-family: berns;
+}
+
+.bg-orange{
+  background-color: orangered;
+}
+
+
+.blt{
+  border: 1px solid #f50d5b;
+}
+
+/*  top sale template   */
+.new-movies .owl-carousel .item .product a {
+  overflow: hidden;
+}
+.new-movies .owl-carousel .item .product img {
+  height: 250px;
+  width: auto;
+  transition: transform 0.5s ease;
+}
+.new-movies .owl-carousel .item .product img:hover {
+  transform: scale(1);
+}
+.new-movies .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+.new-movies .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+.new-movies .owl-carousel .owl-nav button.owl-prev span,
+.new-movies .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #c40700;
+  padding: 0 1rem;
+}
+.new-movies .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+.new-movies .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+.new-movies .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#all-movies .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+#all-movies .grid .grid-item a img{
+  height: auto;
+  width: 100%;
+  position: relative;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+
+.head{
+  height: 500px;
+}
+
+/*# sourceMappingURL=style.c*/
+
+.ban{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.ban input{
+  width: 40%;
+}
+
+@media screen and (max-width: 400px){
+  .ban input{
+    width: 70%;
+  }
+}
